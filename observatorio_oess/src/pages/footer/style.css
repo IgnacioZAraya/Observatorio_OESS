@@ -1,0 +1,80 @@
+/* footer.css */
+
+/* Pie de página */
+.footer {
+    background-color: #003366; /* Fondo azul oscuro */
+    color: white;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    margin-right: 40px;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-logos {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    gap: 10px; /* Space between logo row and logo-mtss */
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between logo-ess and logo-cepal */
+}
+
+/* General logo styling */
+.footer-logo {
+    max-height: 50px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Specific logo-ess adjustments  */
+.logo-ess {
+    max-width: 600px; /* Width restriction for ESS and BRETE logos */
+    transform: scale(1.0); /* keeps the size */
+}
+
+.logo-brete {
+    max-width: 600px; /* Width restriction for ESS and BRETE logos */
+    transform: scale(0.8); /* Reduces the size */
+}
+
+/* Optional adjustments for logo-mtss */
+.logo-mtss {
+    max-width: 600px; /* Adjust size as needed for logo-mtss */
+}
