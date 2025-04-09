@@ -78,3 +78,86 @@
 .logo-mtss {
     max-width: 600px; /* Adjust size as needed for logo-mtss */
 }
+
+/* main.css */
+
+/* Estilos del contenido principal */
+.main-content {
+    padding: 20px;
+}
+
+.main-content h1 {
+    font-size: 2.5em; /* Makes the font size larger */
+    color: #182951;
+}
+
+.main-content h2 {
+    font-size: 1.5rem;
+    color: #0074A0;
+    font-weight: normal; /* Asegura que la fuente no tenga negrita */
+}
+
+.main-content p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.logo-container {
+    position: relative;
+    display: inline-block; /* Align container to its content size */
+    text-align: center; /* Ensures centered text */
+    flex-direction: column; /* Stack text and logo vertically */
+    /* align-items: flex-start;  Align both text and logo to the left */
+    /* align-items: stretch; Allow the child (logo-wrapper) to stretch */
+    margin-left: 20px;
+    margin-bottom: 20px; /* Optional spacing from other content */
+}
+
+.logo-description {
+    position: relative; /* Establish positioning context for the text */
+    left: -15%; /* Center horizontally */
+    font-size: 1rem; /*  main body font size */
+    color: #333; /* Same color as the rest of the page for consistency */
+    font-weight: bold; /* Makes the text bold */
+    margin-left: 0px;
+    margin-bottom: 30px; /* Add space between text and logo */
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content; /* Wrapper adjusts to content size */
+    height: auto;
+}
+
+.logo-wrapper img {
+    max-width: 100%; /* Makes the logo adapt to the wrapper */
+    width: auto; /* Ensures aspect ratio is preserved */
+    height: auto; /* Ensures aspect ratio is preserved */
+    transform: scale(1.75); /* Doubles the size */
+}
+
+.observatorio-btn {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el botón */
+    margin-top: 20px;
+}
+
+.observatorio-btn a {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #003366; /* Azul similar al diseño */
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #001F54;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.observatorio-btn a:hover {
+    background-color: #001F54; /* Azul más oscuro en hover */
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
