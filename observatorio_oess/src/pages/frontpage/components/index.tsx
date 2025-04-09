@@ -7,7 +7,7 @@ function FrontPage() {
       <main className="main-content">
         <h2>¿Qué es Economía Social Solidaria?</h2>
 
-        <p>
+        <p className="presidential-blue">
           {" "}
           Según la Asamblea General de las Naciones Unidas la Economía Social
           Solidaria engloba a empresas, organizaciones y otras entidades que
