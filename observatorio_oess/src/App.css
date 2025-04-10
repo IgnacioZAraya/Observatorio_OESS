@@ -1,40 +1,42 @@
-.App {
-  text-align: center;
+h1 {
+  font-family: "Henderson-Bold";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-family: "Henderson-Semibd";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  text-align: justify;
+  font-family: "Henderson-Light";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.color-palette{
+  color: #182951;
+  color: #0034A0;
+  color: #CFAC65;
+  color: #F2DAB1;
+  color: #FFFFFF;
+  color: #C1C5C8;
 }
+
 
 
 
 .App-link {
   color: #61dafb;
+@font-face {
+  font-family: "Henderson-Light";
+  src: url('./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Light.ttf');
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "Henderson-Bold";
+  src: url('./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Bold.ttf');
+}
+
+@font-face {
+  font-family: "Henderson-SemiBd";
+  src: url('./assets/Fonts/HendersonSans/Henderson-Sans-Basic-SemiBd.ttf');
 }
