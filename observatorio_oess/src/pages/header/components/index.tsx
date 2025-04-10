@@ -1,19 +1,21 @@
 import React from "react";
+import logoMTSS from '../../../assets/Image/MTSSAZUL.png';
 import "../style.css";
+
 
 function Header() {
   return (
     <div className="content-wrapper">
       <header className="header-container">
         <div className="header-top">
-          /* Logotipo y redes sociales */
+          {/* /* Logotipo y redes sociales */}
           <div className="logo-section">
             <img
-              src="Image/MTSS AZUL (1).png"
+              src={logoMTSS}
               alt="Logo del Ministerio"
               className="logo"
-            ></img>
-            /* Redes Sociales */
+            />
+            {/* /* Redes Sociales */}
             <div className="social-icons">
               <a href="#">
                 <i className="fab fa-facebook"></i>

@@ -3,6 +3,7 @@ import Header from './pages/header/components';
 import FrontPage from './pages/frontpage/components';
 import ReportPage from './pages/report/components';
 import Footer from './pages/footer/components';
+
 import './App.css';
 
 function App() {
