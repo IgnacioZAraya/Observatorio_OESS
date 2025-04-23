@@ -1,15 +1,36 @@
+.App {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #f1f1f1;
+  position: relative;
+  display: flex;
+}
+
 h1 {
   font-family: "Henderson-Bold";
 }
 
-h2 {
+h2, h3 {
   font-family: "Henderson-Semibd";
 }
 
-p {
-  text-align: justify;
+p, li {
   font-family: "Henderson-Light";
 }
+
+p{
+  text-align: justify;
+}
+
+/* @media screen and (min-width: 768px) {
+  .App{
+    insert global change
+  }
+} */
 
 .color-palette{
   color: #182951;
@@ -20,15 +41,9 @@ p {
   color: #C1C5C8;
 }
 
-
-
-
-.App-link {
-  color: #61dafb;
 @font-face {
   font-family: "Henderson-Light";
   src: url('./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Light.ttf');
-
 }
 
 @font-face {
