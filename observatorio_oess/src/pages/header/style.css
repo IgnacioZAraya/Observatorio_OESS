@@ -9,9 +9,9 @@
 /* Parte superior del encabezado */
 .header-top {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  justify-content: space-between;
+  margin: 0 !important;
 }
 
 /* Logo */
@@ -21,8 +21,10 @@
 }
 
 .logo {
-  max-width: 70%;
+  background-size: 100%;
+  display: block;
   height: auto;
+  width: 100%;
 }
 
 /* Navegación superior */
@@ -30,24 +32,40 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column; /* Cambiamos a columna para separar los elementos */
-  gap: 10px; /* Espacio entre el menú y la barra de búsqueda */
   align-items: flex-end;
-  width: 100%; /* Asegura que ocupe todo el ancho */
+  width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .nav-top .menu {
+  width: 75%;
+  list-style: none;
   display: flex;
-  gap: 15px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  font-size: 14px;
+}
+
+li.divider {
+  height: 15px;
+  width: 1px;
+  background: #a3a4a6;
+  margin: 10px 0px 0px;
 }
 
 .nav-top a {
-  color: #333;
+  position: relative;
+  display: block;
+  color: #222222;
+  padding: 10px 15px;
+  font-family: "Raleway", sans-serif;
+  border-radius: 0px 0px 5px 5px;
   text-decoration: none;
-  font-size: 1rem;
-  padding-right: 15px;
-  border-right: 1px solid #333;
+  line-height: 20px;
+  background-color: transparent;
+  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
 }
 
 .nav-top a:last-child {
@@ -90,6 +108,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%; /* Asegura que ocupe todo el ancho */
+  padding-bottom: 20px;
 }
 
 .search-bar {

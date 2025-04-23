@@ -21,13 +21,45 @@ function Header() {
           {/* <!-- Navegación superior y barra de búsqueda --> */}
           <div className="nav-top">
             {/* <!-- Menú superior --> */}
-            <div className="menu">
+            {/*<div className="menu">
               <a href="#">Inicio</a>
               <a href="#">Contáctenos</a>
               <a href="#">Despacho</a>
               <a href="#">Ingreso Funcionarios</a>
               <a href="#">Denuncia Auditoría</a>
-            </div>
+            </div>*/}
+            <ul className="menu">
+              <li>
+                <a href="">
+                  <span className="">Inicio</span>
+                </a>
+              </li>
+              <li role="separator" className="divider"></li>
+              <li>
+                <a href="">
+                  <span>Contáctenos</span>
+                </a>
+              </li>
+              <li role="separator" className="divider"></li>
+              <li>
+                <a href="">
+                  <span>Despacho</span>
+                </a>
+              </li>
+              <li role="separator" className="divider"></li>
+              <li>
+                <a href="">
+                  <span>Ingreso Funcionarios</span>
+                </a>
+              </li>
+              <li role="separator" className="divider"></li>
+              <li>
+                <a href="">
+                  <span>Denuncia Auditoria</span>
+                </a>
+              </li>
+            </ul>
+            {/* <!-- Barra de búsqueda --> */}
             {/* <!-- Barra de búsqueda --> */}
             <div className="row">
               <div className="social-icons">
