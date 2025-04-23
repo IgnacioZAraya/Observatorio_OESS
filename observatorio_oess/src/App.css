@@ -11,32 +11,29 @@ p {
   font-family: "Henderson-Light";
 }
 
-.color-palette{
+.color-palette {
   color: #182951;
-  color: #0034A0;
-  color: #CFAC65;
-  color: #F2DAB1;
-  color: #FFFFFF;
-  color: #C1C5C8;
+  color: #0034a0;
+  color: #cfac65;
+  color: #f2dab1;
+  color: #ffffff;
+  color: #c1c5c8;
 }
-
-
-
 
 .App-link {
   color: #61dafb;
-@font-face {
-  font-family: "Henderson-Light";
-  src: url('./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Light.ttf');
-
+  @font-face {
+    font-family: "Henderson-Light";
+    src: url("./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Light.ttf");
+  }
 }
 
 @font-face {
   font-family: "Henderson-Bold";
-  src: url('./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Bold.ttf');
+  src: url("./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Bold.ttf");
 }
 
 @font-face {
   font-family: "Henderson-SemiBd";
-  src: url('./assets/Fonts/HendersonSans/Henderson-Sans-Basic-SemiBd.ttf');
+  src: url("./assets/Fonts/HendersonSans/Henderson-Sans-Basic-SemiBd.ttf");
 }
