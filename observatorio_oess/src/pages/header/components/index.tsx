@@ -10,110 +10,100 @@ import "../style.css";
 
 function Header() {
   return (
-    <div className="content-wrapper">
-      <header className="header-container">
-        <div className="header-top">
-          {/* /* Logotipo y redes sociales */}
-          <div className="logo-section">
-            <img src={logoMTSS} alt="Logo del Ministerio" className="logo" />
-            {/* /* Redes Sociales */}
-          </div>
-          {/* <!-- Navegación superior y barra de búsqueda --> */}
-          <div className="nav-top">
-            {/* <!-- Menú superior --> */}
-            {/*<div className="menu">
-              <a href="#">Inicio</a>
-              <a href="#">Contáctenos</a>
-              <a href="#">Despacho</a>
-              <a href="#">Ingreso Funcionarios</a>
-              <a href="#">Denuncia Auditoría</a>
-            </div>*/}
-            <ul className="menu">
-              <li>
-                <a href="">
-                  <span className="">Inicio</span>
-                </a>
-              </li>
-              <li role="separator" className="divider"></li>
-              <li>
-                <a href="">
-                  <span>Contáctenos</span>
-                </a>
-              </li>
-              <li role="separator" className="divider"></li>
-              <li>
-                <a href="">
-                  <span>Despacho</span>
-                </a>
-              </li>
-              <li role="separator" className="divider"></li>
-              <li>
-                <a href="">
-                  <span>Ingreso Funcionarios</span>
-                </a>
-              </li>
-              <li role="separator" className="divider"></li>
-              <li>
-                <a href="">
-                  <span>Denuncia Auditoria</span>
-                </a>
-              </li>
-            </ul>
-            {/* <!-- Barra de búsqueda --> */}
-            {/* <!-- Barra de búsqueda --> */}
-            <div className="row">
-              <div className="social-icons">
-                <img
-                  src={logoFB}
-                  alt="Logo del Ministerio"
-                  className="fab fa-facebook"
-                />
-                <img
-                  src={logoIG}
-                  alt="Logo del Ministerio"
-                  className="fab fa-instagram"
-                />
-                <img
-                  src={logoX}
-                  alt="Logo del Ministerio"
-                  className="fab fa-twitter"
-                />
-                <img
-                  src={logoYT}
-                  alt="Logo del Ministerio"
-                  className="fab fa-youtube"
-                />
-                <img
-                  src={logoLK}
-                  alt="Logo del Ministerio"
-                  className="fab fa-linkedin"
-                />
-                <img
-                  src={logoEM}
-                  alt="Logo del Ministerio"
-                  className="fas fa-envelope"
-                />
-              </div>
-              <div className="search-bar">
-                <input type="text" placeholder="Buscar"></input>
-                <button>Buscar</button>
-              </div>
+    <div className="header">
+      <div className="wrapper">
+        <img src={logoMTSS} alt="Logo del Ministerio" className="logo" />
+
+        <div className="half">
+          <ul className="links">
+            <li>
+              <a href="">
+                <span>Inicio</span>
+              </a>
+            </li>
+            <li role="separator" className="divider" />
+            <li>
+              <a href="">
+                <span>Contáctenos</span>
+              </a>
+            </li>
+            <li role="separator" className="divider" />
+            <li>
+              <a href="">
+                <span>Despacho</span>
+              </a>
+            </li>
+            <li role="separator" className="divider" />
+            <li>
+              <a href="">
+                <span>Ingreso Funcionarios</span>
+              </a>
+            </li>
+            <li role="separator" className="divider" />
+            <li>
+              <a href="">
+                <span>Denuncia Auditoria</span>
+              </a>
+            </li>
+          </ul>
+          <div className="utilities">
+            <div className="socials">
+              <a href="https://www.facebook.com/TrabajoCR">
+                <img src={logoFB} alt="Logo de FB" />
+              </a>
+              <a href="https://www.instagram.com/ministeriodetrabajocr/">
+                <img src={logoIG} alt="Logo de IG" />
+              </a>
+              <a href="https://twitter.com/MTSS_CR">
+                <img src={logoX} alt="Logo de X" />
+              </a>
+              <a href="https://www.youtube.com/user/TrabajoCostaRica">
+                <img src={logoYT} alt="Logo de YT" />
+              </a>
+              <a href="https://www.linkedin.com/company/ministerio-de-trabajo-y-seguridad-social-cr">
+                <img src={logoLK} alt="Logo de LD" />
+              </a>
+              <a href="#">
+                <img src={logoEM} alt="Logo de LD" />
+              </a>
+            </div>
+            <div className="searchbar">
+              <form
+                name="searcher"
+                action="/buscador/Default.aspx"
+                method="post"
+                role="search"
+              >
+                <div className="inputGroup">
+                  <input
+                    type="text"
+                    className="form-control"
+                    name="expresion"
+                    id="expresion"
+                    placeholder="Buscar"
+                  />
+                  <span className="btnWrapper">
+                    <button className="btnSearch" type="submit" title="Buscar">
+                      Buscar
+                    </button>
+                  </span>
+                </div>
+              </form>
             </div>
           </div>
+          +
         </div>
-
-        {/* <!-- Barra de Navegación Inferior --> */}
-        <nav className="main-navigation">
-          <a href="#">El Ministerio</a>
-          <a href="#">Transparencia</a>
-          <a href="#">Trámites y Servicios</a>
-          <a href="#">Temas Laborales</a>
-          <a href="#">Seguridad Social</a>
-          <a href="#">Empleo y Formación</a>
-          <a href="#">Sala de Prensa</a>
-          <a href="#">Perfiles</a>
-        </nav>
-      </header>
+      </div>
+      <nav className="main-navigation">
+        <a href="#">El Ministerio</a>
+        <a href="#">Transparencia</a>
+        <a href="#">Trámites y Servicios</a>
+        <a href="#">Temas Laborales</a>
+        <a href="#">Seguridad Social</a>
+        <a href="#">Empleo y Formación</a>
+        <a href="#">Sala de Prensa</a>
+        <a href="#">Perfiles</a>
+      </nav>
     </div>
   );
 }
