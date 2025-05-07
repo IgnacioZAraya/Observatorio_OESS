@@ -25,7 +25,8 @@ h1 {
   font-family: "Henderson-Bold";
 }
 
-h2 {
+h2,
+h3 {
   font-family: "Henderson-Semibd";
 }
 
@@ -87,6 +88,26 @@ p {
   }
 }
 
+/* @media screen and (min-width: 768px) {
+  .App{
+    insert global change
+  }
+} */
+
+.color-palette {
+  color: #182951;
+  color: #0034a0;
+  color: #cfac65;
+  color: #f2dab1;
+  color: #ffffff;
+  color: #c1c5c8;
+}
+
+@font-face {
+  font-family: "Henderson-Light";
+  src: url("./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Light.ttf");
+}
+
 @font-face {
   font-family: "Henderson-Bold";
   src: url("./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Bold.ttf");
@@ -95,4 +116,10 @@ p {
 @font-face {
   font-family: "Henderson-SemiBd";
   src: url("./assets/Fonts/HendersonSans/Henderson-Sans-Basic-SemiBd.ttf");
+}
+
+.App {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
 }
