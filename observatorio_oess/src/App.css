@@ -1,57 +1,132 @@
-.App {
-  max-width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #f1f1f1;
-  position: relative;
-  display: flex;
+  background-color: #ffffff;
+  color: #c1c5c8;
+  font-size: 14px;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
 }
 
 h1 {
   font-family: "Henderson-Bold";
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: "Henderson-Semibd";
 }
 
-p, li {
+input {
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+}
+
+button {
+  color: inherit;
+  font-family: inherit;
+  text-transform: none;
+  cursor: pointer;
+  padding-block: 1px;
+  padding-inline: 6px;
+  overflow: visible;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.5sease 0s;
+  -webkit-transition: all 0.5sease 0s;
+}
+
+p {
+  text-align: justify;
   font-family: "Henderson-Light";
 }
 
-p{
-  text-align: justify;
+.extremes {
+  height: 155.33px;
 }
 
-/* @media screen and (min-width: 768px) {
+.color-palette {
+  color: #182951;
+  color: #0034a0;
+  color: #cfac65;
+  color: #f2dab1;
+  color: #ffffff;
+  color: #c1c5c8;
+}
+
+.App-link {
+  color: #61dafb;
+  @font-face {
+    font-family: "Henderson-Light";
+    src: url("./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Light.ttf");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .extremes {
+    height: 60px;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
   .App{
     insert global change
   }
 } */
 
-.color-palette{
+.color-palette {
   color: #182951;
-  color: #0034A0;
-  color: #CFAC65;
-  color: #F2DAB1;
-  color: #FFFFFF;
-  color: #C1C5C8;
+  color: #0034a0;
+  color: #cfac65;
+  color: #f2dab1;
+  color: #ffffff;
+  color: #c1c5c8;
+  color: #006a9a;
 }
 
 @font-face {
   font-family: "Henderson-Light";
-  src: url('./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Light.ttf');
+  src: url("./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Light.ttf");
 }
 
 @font-face {
   font-family: "Henderson-Bold";
-  src: url('./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Bold.ttf');
+  src: url("./assets/Fonts/HendersonSans/Henderson-Sans-Basic-Bold.ttf");
 }
 
 @font-face {
   font-family: "Henderson-SemiBd";
-  src: url('./assets/Fonts/HendersonSans/Henderson-Sans-Basic-SemiBd.ttf');
+  src: url("./assets/Fonts/HendersonSans/Henderson-Sans-Basic-SemiBd.ttf");
+}
+
+.App {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
 }
