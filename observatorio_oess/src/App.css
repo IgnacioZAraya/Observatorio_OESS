@@ -88,7 +88,13 @@ p {
   }
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
+  .extremes {
+    height: 60px;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
   .App{
     insert global change
   }
@@ -101,6 +107,7 @@ p {
   color: #f2dab1;
   color: #ffffff;
   color: #c1c5c8;
+  color: #006a9a;
 }
 
 @font-face {

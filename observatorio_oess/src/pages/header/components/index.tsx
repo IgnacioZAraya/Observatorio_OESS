@@ -1,5 +1,7 @@
+/* eslint-disable react/style-prop-object */
 import React from "react";
 import logoMTSS from "../../../assets/Image/MTSSDORADO.png";
+import logoBMTSS from "../../../assets/Image/MTSSBLANCO.png";
 import logoFB from "../../../assets/Image/RedesSoaciales/fb_icon.png";
 import logoIG from "../../../assets/Image/RedesSoaciales/Ig_Icon.png";
 import logoX from "../../../assets/Image/RedesSoaciales/X_Icon.png";
@@ -93,6 +95,18 @@ function Header() {
           </div>
           +
         </div>
+
+        <img
+          src={logoBMTSS}
+          alt="Logo del Ministerio"
+          className="logo-mobile"
+        />
+
+        <img
+          className="ham-menu"
+          src="https://img.icons8.com/?size=100&id=PpSBa7iaIak3&format=png&color=FFFFFF"
+          alt="menu--v5"
+        />
       </div>
       <nav className="main-navigation">
         <a href="#">El Ministerio</a>
