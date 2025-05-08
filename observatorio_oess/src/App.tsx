@@ -12,15 +12,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <section className="extremes">
-        <Header />
-      </section>
-      <section>
-        <FrontPage />
-      </section>
-      <section>
-        <Footer />
-      </section>
+      <Header />
+
+      <FrontPage />
+
+      <Footer />
     </div>
   );
 }

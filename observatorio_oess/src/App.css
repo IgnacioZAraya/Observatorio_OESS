@@ -12,13 +12,8 @@ html {
 
 body {
   background-color: #ffffff;
-  color: #c1c5c8;
+  color: #182951;
   font-size: 14px;
-}
-
-section {
-  height: 100vh;
-  scroll-snap-align: center;
 }
 
 h1 {
