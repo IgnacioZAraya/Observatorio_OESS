@@ -46,38 +46,12 @@ ul li a {
     font-size: 0.9rem;
 }
 
-/* .footer-logos {
-    display: flex;
-    flex-direction: column;  Stack items vertically 
-    align-items: center;
-    gap: 10px;  Space between logo row and logo-mtss 
-    flex: 1;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+.footer-logos {
+    padding: 30px 0;
 }
 
-.logo-row {
-    display: flex;
-    justify-content: center;
-    gap: 10px;  Space between logo-ess and logo-cepal 
-} */
-
-/* Specific logo-ess adjustments  */
-.logo-ess {
-    max-width: 200px; /* Width restriction for ESS and BRETE logos */
-    transform: scale(1.0); /* keeps the size */
-    max-height: 200px;
-}
-
-.logo-brete {
-    max-width: 200px; /* Width restriction for ESS and BRETE logos */
-    transform: scale(0.8); /* Reduces the size */
-}
-
-/* Optional adjustments for logo-mtss */
-.logo-mtss {
-    max-width: 200px; /* Adjust size as needed for logo-mtss */
+.logo-dess {
+    max-width: 400px;
 }
 
 @media screen and (max-width: 768px) {

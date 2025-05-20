@@ -1,17 +1,24 @@
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { useRef } from "react";
-import Foto7 from "../../../assets/Image/Carrousel/acamude.jpg";
-import {
-  default as Foto4,
-  default as Foto8,
-} from "../../../assets/Image/Carrousel/apacoop.jpg";
-import Foto3 from "../../../assets/Image/Carrousel/arboles de vida.jpg";
-import Foto10 from "../../../assets/Image/Carrousel/asoc agro.jpg";
-import Foto9 from "../../../assets/Image/Carrousel/AyA.jpg";
-import Foto2 from "../../../assets/Image/Carrousel/cruz roja.jpg";
-import Foto6 from "../../../assets/Image/Carrousel/fedeagua.jpg";
-import Foto1 from "../../../assets/Image/Carrousel/feria 3.jpg";
-import Foto5 from "../../../assets/Image/Carrousel/feria 4.jpg";
+import Foto7 from "../../../assets/Image/Carrousel/QUESOS.jpg";
+import Foto4 from "../../../assets/Image/Carrousel/RABANOS.jpg";
+import Foto8 from "../../../assets/Image/Carrousel/agua.jpg";
+import Foto3 from "../../../assets/Image/Carrousel/CONCHAS.jpg";
+import Foto10 from "../../../assets/Image/Carrousel/Copia de 1747067119483.jpg";
+import Foto9 from "../../../assets/Image/Carrousel/Copia de 20241120_111106.jpg";
+import Foto2 from "../../../assets/Image/Carrousel/Copia de 20241120_111727.jpg";
+import Foto6 from "../../../assets/Image/Carrousel/Copia de 4 7.jpg";
+import Foto1 from "../../../assets/Image/Carrousel/II Feria.jpg";
+import Foto5 from "../../../assets/Image/Carrousel/IMG-20231109-WA0075.jpg";
+import Foto11 from "../../../assets/Image/Carrousel/IMG_0349.png";
+import Foto12 from "../../../assets/Image/Carrousel/Producto arete.png"
+import Foto13 from "../../../assets/Image/Carrousel/Copia de 1747067119565.jpg"
+import Foto14 from "../../../assets/Image/Carrousel/Copia de 1747067119639.jpg"
+import Foto15 from "../../../assets/Image/Carrousel/unnamed.jpg"
+import Foto16 from "../../../assets/Image/Carrousel/mascaras.jpg"
+import Cepal from "../../../assets/Image/CEPAL Pantone 279.jpg";
+import Brete from "../../../assets/Image/BRETE.png";
+import Ess from "../../../assets/Image/Logo Ess.png";
 
 import "../style.css";
 
@@ -132,8 +139,26 @@ function FrontPage() {
             <div className="img-wrapper faster1">
               <img src={Foto9}></img>
             </div>
-            <div className="img-wrapper slowest">
+            <div className="img-wrapper vertical">
               <img src={Foto10}></img>
+            </div>
+            <div className="img-wrapper slowest">
+              <img src={Foto11}></img>
+            </div>
+            <div className="img-wrapper faster">
+              <img src={Foto12}></img>
+            </div>
+            <div className="img-wrapper faster2">
+              <img src={Foto13}></img>
+            </div>
+            <div className="img-wrapper fastest">
+              <img src={Foto14}></img>
+            </div>
+            <div className="img-wrapper slower2">
+              <img src={Foto15}></img>
+            </div>
+            <div className="img-wrapper last">
+              <img src={Foto16}></img>
             </div>
           </div>
         </div>
@@ -143,6 +168,17 @@ function FrontPage() {
           {items.map((item) => (
             <Single item={item} key={item.id} />
           ))}
+        </div>
+        <div className="button-section">
+          <button className="btn">Estadisticas</button>
+        </div>
+        <div className="logos">
+          <img src={Ess} className="logo-ess"></img>
+          <img src={Brete} className="logo-brete"></img>
+          <div className="collabs">
+          <h3>Con colaboración:</h3>
+          <img src={Cepal} className="logo-cepal"></img>
+          </div>
         </div>
       </main>
     </div>
