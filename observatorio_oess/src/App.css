@@ -46,6 +46,15 @@ button {
   overflow: visible;
 }
 
+.btn {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-style: "Hender";
+  color: #fff;
+  background-color: #182951;
+}
+
 a {
   text-decoration: none;
   background-color: transparent;
