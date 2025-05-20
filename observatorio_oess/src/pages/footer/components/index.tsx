@@ -1,7 +1,7 @@
 import React from "react";
 import BreteLogo from "../../../assets/Image/BRETE.png"
 import EssLogo from "../../../assets/Image/Logo Ess.png"
-import MtssLogo from "../../../assets/Image/MTSSAZUL.png"
+import DessLogo from "../../../assets/Image/DESS BLANCO.png"
 import "../style.css";
 
 function Footer() {
@@ -61,22 +61,10 @@ function Footer() {
           {/* <!-- Logos alineados horizontalmente --> */}
           <div className="footer-logos">
             <img
-              src={MtssLogo}
-              alt="Logo MTSS"
-              className="footer-logo logo-mtss"
+              src={DessLogo}
+              alt="Dess"
+              className="footer-logo logo-dess"
             ></img>
-            <div className="logo-row">
-              <img
-                src={EssLogo}
-                alt="Logo ESS"
-                className="footer-logo logo-ess"
-              ></img>
-              <img
-                src={BreteLogo}
-                alt="Logo BRETE"
-                className="footer-logo logo-brete"
-              ></img>
-            </div>
           </div>
           </div>
 
