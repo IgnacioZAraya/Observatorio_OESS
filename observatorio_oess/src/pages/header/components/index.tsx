@@ -1,5 +1,5 @@
-/* eslint-disable react/style-prop-object */
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 import logoMTSS from "../../../assets/Image/MTSSDORADO.png";
 import logoBMTSS from "../../../assets/Image/MTSSBLANCO.png";
 import logoFB from "../../../assets/Image/RedesSoaciales/fb_icon.png";
@@ -11,6 +11,9 @@ import logoEM from "../../../assets/Image/RedesSoaciales/Em_Icon.png";
 import "../style.css";
 
 function Header() {
+
+  const [showHamMenu, setShowHamMenu] = useState(false);
+  
   return (
     <div className="header">
       <div className="wrapper">
@@ -93,7 +96,6 @@ function Header() {
               </form>
             </div>
           </div>
-          +
         </div>
 
         <img
@@ -105,8 +107,119 @@ function Header() {
         <img
           className="ham-menu"
           src="https://img.icons8.com/?size=100&id=PpSBa7iaIak3&format=png&color=FFFFFF"
-          alt="menu--v5"
+          alt="menu--v5" 
+          onClick={() => setShowHamMenu(!showHamMenu)}
         />
+
+        <div 
+        className="navHamMenu" 
+        style={{display : showHamMenu ? "flex" : "none"}}
+        >
+          <Link
+          activeClass="active"
+          to="home"
+          className="mobileListItem"
+          onClick={() => setShowHamMenu(false)}
+          >
+            El Ministerio
+          </Link>
+        <Link
+          activeClass="active"
+          to="about"
+          className="mobileListItem"
+          onClick={() => setShowHamMenu(false)}
+        >
+          Transparencia
+        </Link>
+        <Link
+          activeClass="active"
+          to="portfolio"
+          className="mobileListItem"
+          onClick={() => setShowHamMenu(false)}
+        >
+          Trámites y Servicios
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          className="mobileListItem"
+          onClick={() => setShowHamMenu(false)}
+        >
+          Temas Laboales
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          className="mobileListItem"
+          onClick={() => setShowHamMenu(false)}
+        >
+          Seguridad Social
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          className="mobileListItem"
+          onClick={() => setShowHamMenu(false)}
+        >
+          Empleo y Formación
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          className="mobileListItem"
+          onClick={() => setShowHamMenu(false)}
+        >
+          Sala de Prensa
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          className="mobileListItem"
+          onClick={() => setShowHamMenu(false)}
+        >
+          Perfiles
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          className="mobileListItem"
+          onClick={() => setShowHamMenu(false)}
+        >
+          Inicio
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          className="mobileListItem"
+          onClick={() => setShowHamMenu(false)}
+        >
+          Contáctenos
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          className="mobileListItem"
+          onClick={() => setShowHamMenu(false)}
+        >
+          Despacho
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          className="mobileListItem"
+          onClick={() => setShowHamMenu(false)}
+        >
+          Ingreso Funcionarios
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          className="mobileListItem"
+          onClick={() => setShowHamMenu(false)}
+        >
+          Denuncia Auditoria
+        </Link>
+        </div>
       </div>
       <nav className="main-navigation">
         <a href="#">El Ministerio</a>
