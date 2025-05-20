@@ -11,11 +11,11 @@ import Foto6 from "../../../assets/Image/Carrousel/Copia de 4 7.jpg";
 import Foto1 from "../../../assets/Image/Carrousel/II Feria.jpg";
 import Foto5 from "../../../assets/Image/Carrousel/IMG-20231109-WA0075.jpg";
 import Foto11 from "../../../assets/Image/Carrousel/IMG_0349.png";
-import Foto12 from "../../../assets/Image/Carrousel/Producto arete.png"
-import Foto13 from "../../../assets/Image/Carrousel/Copia de 1747067119565.jpg"
-import Foto14 from "../../../assets/Image/Carrousel/Copia de 1747067119639.jpg"
-import Foto15 from "../../../assets/Image/Carrousel/unnamed.jpg"
-import Foto16 from "../../../assets/Image/Carrousel/mascaras.jpg"
+import Foto12 from "../../../assets/Image/Carrousel/Producto arete.png";
+import Foto13 from "../../../assets/Image/Carrousel/Copia de 1747067119565.jpg";
+import Foto14 from "../../../assets/Image/Carrousel/Copia de 1747067119639.jpg";
+import Foto15 from "../../../assets/Image/Carrousel/unnamed.jpg";
+import Foto16 from "../../../assets/Image/Carrousel/mascaras.jpg";
 import Icon1 from "../../../assets/Image/PropIcons/solidarity.png";
 import Icon2 from "../../../assets/Image/PropIcons/corporate.png";
 import Icon3 from "../../../assets/Image/PropIcons/united-nations.png";
@@ -23,7 +23,6 @@ import Icon4 from "../../../assets/Image/PropIcons/goal.png";
 import Cepal from "../../../assets/Image/CEPAL Pantone 279.jpg";
 import Brete from "../../../assets/Image/BRETE.png";
 import Ess from "../../../assets/Image/Logo Ess.png";
-
 
 import "../style.css";
 
@@ -176,15 +175,25 @@ function FrontPage() {
             <Single item={item} key={item.id} />
           ))}
         </div>
+        <div className="containerEstadisticas">
+          <div className="infoWrapper">
+            <h2>Cantidad de OESS activas y vigentes al 2024</h2>
+            <p>27.499</p>
+          </div>
+          <div className="infoWrapper">
+            <h2>Total de miembros en OESS activos y vigentes at 2024</h2>
+            <p>1.590.422</p>
+          </div>
+        </div>
         <div className="button-section">
-          <button className="btn">Estadisticas</button>
+          <button className="btn">Más Información</button>
         </div>
         <div className="logos">
           <img src={Ess} className="logo-ess"></img>
           <img src={Brete} className="logo-brete"></img>
           <div className="collabs">
-          <h3>Con colaboración:</h3>
-          <img src={Cepal} className="logo-cepal"></img>
+            <h3>Con colaboración:</h3>
+            <img src={Cepal} className="logo-cepal"></img>
           </div>
         </div>
       </main>
