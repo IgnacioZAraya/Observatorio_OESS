@@ -19,7 +19,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+.btn {
   font-family: "Henderson-Semibd";
 }
 
@@ -48,9 +49,8 @@ button {
 
 .btn {
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 18px;
-  font-style: "Hender";
   color: #fff;
   background-color: #182951;
 }
