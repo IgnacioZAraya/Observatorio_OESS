@@ -1,5 +1,6 @@
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import ReportComp from "../../reporte/components";
 import Foto7 from "../../../assets/Image/Carrousel/QUESOS.jpg";
 import Foto4 from "../../../assets/Image/Carrousel/RABANOS.jpg";
 import Foto8 from "../../../assets/Image/Carrousel/agua.jpg";
@@ -100,6 +101,7 @@ const Single = ({ item }: any) => {
 };
 
 function FrontPage() {
+  const [showBiComponent, setShowBiComponent] = useState(false);
   const ref = useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -112,6 +114,9 @@ function FrontPage() {
     damping: 30,
   });
 
+  const handleOnClick = () => {
+    setShowBiComponent(!showBiComponent);
+  };
   return (
     <div className="content-wrapper">
       <main className="main-content">
@@ -185,13 +190,25 @@ function FrontPage() {
             <p>1.606.158</p>
           </div>
           <div className="infoWrapper">
-            <h2>Porcentaje total de la población asociada a una OESS al 2024</h2>
+            <h2>
+              Porcentaje total de la población asociada a una OESS al 2024
+            </h2>
             <p>X%</p>
           </div>
         </div>
         <div className="button-section">
-          <button className="btn">Más Información</button>
+          <button className="btn" onClick={handleOnClick}>
+            <span style={{ display: !showBiComponent ? "flex" : "none" }}>
+              Mostrar Información
+            </span>
+            <span style={{ display: showBiComponent ? "flex" : "none" }}>
+              Colapsar Información
+            </span>
+          </button>
         </div>
+
+        {showBiComponent && <ReportComp />}
+
         <div className="logos">
           <img src={Ess} className="logo-ess"></img>
           <img src={Brete} className="logo-brete"></img>
