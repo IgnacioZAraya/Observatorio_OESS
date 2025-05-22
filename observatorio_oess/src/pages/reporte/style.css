@@ -1,14 +1,21 @@
-.page-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: inherit;
 }
 
 /* Contenedor blanco para cada sección */
-.content-wrapper {
-    background-color: white; /* Fondo blanco */
-    max-width: 1200px;
-    width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para efecto de tarjeta */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  max-width: 1300px;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.info-Bi {
+  width: 95%;
+  height: 720px;
 }
