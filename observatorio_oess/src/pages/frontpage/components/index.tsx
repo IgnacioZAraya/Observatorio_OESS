@@ -178,11 +178,15 @@ function FrontPage() {
         <div className="containerEstadisticas">
           <div className="infoWrapper">
             <h2>Cantidad de OESS activas y vigentes al 2024</h2>
-            <p>27.499</p>
+            <p>27.453</p>
           </div>
           <div className="infoWrapper">
-            <h2>Total de miembros en OESS activos y vigentes at 2024</h2>
-            <p>1.590.422</p>
+            <h2>Total de miembros en OESS activos y vigentes al 2024</h2>
+            <p>1.606.158</p>
+          </div>
+          <div className="infoWrapper">
+            <h2>Porcentaje total de la población asociada a una OESS al 2024</h2>
+            <p>X%</p>
           </div>
         </div>
         <div className="button-section">
