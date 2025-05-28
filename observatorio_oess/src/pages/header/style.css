@@ -1,5 +1,6 @@
 body {
   font-family: "Henderson-Light";
+  letter-spacing: -1.25px;
 }
 
 .header {
@@ -7,7 +8,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  .wrapper {
+  .wrapper-header {
     height: 104px;
     display: flex;
     .mobile-header {
@@ -42,8 +43,8 @@ body {
         margin-block-start: 0.55em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
-        padding-inline-start: 15px;
-        padding-inline-end: 35px;
+        padding-inline-start: 0px;
+        padding-inline-end: 0px;
         list-style: none;
         unicode-bidi: isolate;
         .divider {
@@ -160,11 +161,8 @@ body {
       }
     }
   }
+
   @media screen and (max-width: 768px) {
-    .wrapper {
-      flex-direction: row !important;
-      height: 60px !important;
-    }
     .logo,
     .half,
     .main-navigation {
@@ -173,8 +171,9 @@ body {
     .header {
       height: 60px;
     }
-    .wrapper {
-      height: 60px;
+    .wrapper-header {
+      flex-direction: row !important;
+      height: 60px !important;
       background-color: #006a9a;
       padding: 15px;
       transition: transform 400ms ease;
@@ -218,7 +217,7 @@ body {
     }
   }
   @media screen and (max-width: 1000px) {
-    .wrapper {
+    .wrapper-header {
       height: 240px;
       flex-direction: column;
       align-items: center;
@@ -232,9 +231,10 @@ body {
       height: 104px !important;
     }
   }
-  @media screen and (max-width: 1115px) {
-    .wrapper {
-      height: 140px;
+
+  @media screen and (max-width: 1195px) {
+    .form-control {
+      width: 75% !important;
     }
   }
   /* Navegación superior */
@@ -359,7 +359,8 @@ body {
   }
   /* Barra de Navegación Inferior */
   .main-navigation {
-    display: flex;
+    display: block;
+    width: 100%;
     justify-content: center;
     background-color: #003366;
     padding: 15px 0;
@@ -369,5 +370,12 @@ body {
     margin: 0 15px;
     text-decoration: none;
     font-size: 1rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    .main-navigation {
+      float: left;
+      margin: 0;
+    }
   }
 }
