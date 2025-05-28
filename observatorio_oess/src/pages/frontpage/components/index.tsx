@@ -138,37 +138,37 @@ function FrontPage() {
             <div className="img-wrapper faster">
               <img src={Foto5}></img>
             </div>
-            <div className="img-wrapper slower1">
+            <div className="img-wrapper slower">
               <img src={Foto6}></img>
             </div>
-            <div className="img-wrapper faster">
+            <div className="img-wrapper fast">
               <img src={Foto7}></img>
             </div>
-            <div className="img-wrapper slower2">
+            <div className="img-wrapper slower">
               <img src={Foto8}></img>
             </div>
-            <div className="img-wrapper faster1">
+            <div className="img-wrapper faster">
               <img src={Foto9}></img>
             </div>
             <div className="img-wrapper vertical">
               <img src={Foto10}></img>
             </div>
-            <div className="img-wrapper slowest">
+            <div className="img-wrapper slower">
               <img src={Foto11}></img>
             </div>
             <div className="img-wrapper faster">
               <img src={Foto12}></img>
             </div>
-            <div className="img-wrapper faster2">
+            <div className="img-wrapper slower">
               <img src={Foto13}></img>
             </div>
-            <div className="img-wrapper fastest">
+            <div className="img-wrapper slower-down">
               <img src={Foto14}></img>
             </div>
-            <div className="img-wrapper slower2">
+            <div className="img-wrapper slow">
               <img src={Foto15}></img>
             </div>
-            <div className="img-wrapper last">
+            <div className="img-wrapper fast">
               <img src={Foto16}></img>
             </div>
           </div>
