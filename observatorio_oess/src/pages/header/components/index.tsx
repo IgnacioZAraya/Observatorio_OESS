@@ -16,7 +16,7 @@ function Header() {
   
   return (
     <div className="header">
-      <div className="wrapper">
+      <div className="wrapper-header">
         <img src={logoMTSS} alt="Logo del Ministerio" className="logo" />
 
         <div className="half">
