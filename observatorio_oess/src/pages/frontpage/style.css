@@ -141,20 +141,19 @@ h1 {
 }
 
 .logo-brete {
-  background-color: darkblue;
-  padding: 10px;
-  max-height: 110px;
+  padding: 0px;
+  max-height: 300px;
 }
 
 .logo-cepal {
   margin: 20px;
-  max-height: 200px;
-  max-width: 160px;
+  max-height: 210px;
+  max-width: 190px;
   margin-top: 50px;
 }
 
 .logo-ess {
-  max-height: 115px;
+  max-height: 150px;
 }
 
 .observatorio-btn {
