@@ -56,7 +56,7 @@ h1 {
   justify-content: center;
   width: 100%;
   height: 100%;
-  .wrapper {
+  .wrapper-comp {
     max-width: 1300px;
     height: 100%;
     margin: auto;
@@ -301,7 +301,7 @@ a:hover img {
 
 @media screen and (max-width: 1300px) {
   .parallax {
-    .wrapper {
+    .wrapper-comp {
       flex-direction: column;
       align-items: center;
 
