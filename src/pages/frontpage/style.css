@@ -79,7 +79,7 @@ h1 {
     .propIcon {
       display: flex !important;
       align-items: center;
-      justify-content: center;
+      justify-content: center !important;
       background-color: #182951;
       max-width: 350px;
       width: 100%;
