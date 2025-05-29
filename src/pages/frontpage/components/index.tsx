@@ -86,7 +86,7 @@ const Single = ({ item }: any) => {
   return (
     <section ref={ref}>
       <div className="container">
-        <div className="wrapper">
+        <div className="wrapper-comp">
           <div className="propIcon">
             <img src={item.img} alt="prop" />
           </div>
