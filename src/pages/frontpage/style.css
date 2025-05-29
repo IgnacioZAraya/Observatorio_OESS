@@ -77,7 +77,7 @@ h1 {
       box-shadow: 5px 5px #c1c5c8;
     }
     .propIcon {
-      display: flex;
+      display: flex !important;
       align-items: center;
       justify-content: center;
       background-color: #182951;
