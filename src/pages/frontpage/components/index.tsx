@@ -193,7 +193,7 @@ function FrontPage() {
             <h2>
               Porcentaje total de la población asociada a una OESS al 2024
             </h2>
-            <p>X%</p>
+            <p>30%</p>
           </div>
         </div>
         <div className="button-section">
