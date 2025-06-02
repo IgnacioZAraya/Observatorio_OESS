@@ -49,8 +49,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 Para poder inicializar este proyecto, primero se deben instalar las dependencias que ayudan a la aplicación web funcionar, 
 se deben de seguir los siguientes pasos:
 
-1. Abre tu consola de commandos/terminal y accede a la ruta donde se encuentra el projecto.
-2. Ejecutar el siguiente commando: `npm i`. (Este va a instalar todas las dependencias y librerías usadas autoamaticamente)
+1. Abre tu consola de comandos/terminal y accede a la ruta donde se encuentra el proyecto.
+2. Ejecutar el siguiente comando: `npm i`. (Este va a instalar todas las dependencias y librerías usadas autoamaticamente)
 3. Para poder seguir, por favor revisar el resto de la documentación abajo.
 
 ## Scripts disponibles
