@@ -199,10 +199,10 @@ function FrontPage() {
         <div className="button-section">
           <button className="btn" onClick={handleOnClick}>
             <span style={{ display: !showBiComponent ? "flex" : "none" }}>
-              Mostrar Observatorio
+              Ir al Observatorio
             </span>
             <span style={{ display: showBiComponent ? "flex" : "none" }}>
-              Colapsar Observatorio
+              Esconder Observatorio
             </span>
           </button>
         </div>
