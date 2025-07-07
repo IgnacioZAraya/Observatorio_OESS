@@ -187,13 +187,13 @@ function FrontPage() {
           </div>
           <div className="infoWrapper">
             <h2>Total de miembros en OESS activos y vigentes al 2024</h2>
-            <p>1.606.158</p>
+            <p>1.606.158+</p>
           </div>
           <div className="infoWrapper">
             <h2>
               Porcentaje total de la población asociada a una OESS al 2024
             </h2>
-            <p>30%</p>
+            <p>+30%</p>
           </div>
         </div>
         <div className="button-section">
