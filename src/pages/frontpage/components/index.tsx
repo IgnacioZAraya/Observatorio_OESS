@@ -70,7 +70,7 @@ const items = [
     img: Icon4,
     desc:
       "\nEl objetivo del Observatorio de Economía Social Solidaria es: dotar al país con instrumentos que permitan gestionar de manera ideal la información de los sectores que integran la Economía Social Solidaria, facilitando su comprensión y la medición del impacto que generan en la economía.\n\n" +
-      "Es por lo anterior, que desde la Dirección de Economía Social Solidaria del Ministerio de Trabajo y Seguridad Social (MTSS), con la colaboración de la Comisión Económica para América Latina (CEPAL), hemos convenido en la unificación de esfuerzos para presentar el primer Observatorio de la Economía Social Solidaria de Costa Rica.",
+      "Es por lo anterior, que desde la Dirección de Economía Social Solidaria del Ministerio de Trabajo y Seguridad Social (MTSS), con la colaboración de la Comisión Económica para América Latina y el Caribe (CEPAL), hemos convenido en la unificación de esfuerzos para presentar el primer Observatorio de la Economía Social Solidaria de Costa Rica.",
   },
 ];
 
@@ -199,10 +199,10 @@ function FrontPage() {
         <div className="button-section">
           <button className="btn" onClick={handleOnClick}>
             <span style={{ display: !showBiComponent ? "flex" : "none" }}>
-              Mostrar Observatorio
+              Ir al Observatorio
             </span>
             <span style={{ display: showBiComponent ? "flex" : "none" }}>
-              Colapsar Observatorio
+              Esconder Observatorio
             </span>
           </button>
         </div>

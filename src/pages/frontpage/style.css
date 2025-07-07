@@ -45,6 +45,7 @@ h1 {
 }
 
 .collabs {
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -141,18 +142,18 @@ h1 {
 
 .logo-brete {
   padding: 0px;
-  max-height: 300px;
+  max-height: 130px;
 }
 
 .logo-cepal {
-  margin: 20px;
-  max-height: 210px;
-  max-width: 190px;
-  margin-top: 50px;
+  max-height: 90px;
+  max-width: 80px;
+  margin: 15px 26% 0;
 }
 
 .logo-ess {
-  max-height: 150px;
+  max-height: 70px;
+  padding: 0 3.5%;
 }
 
 .observatorio-btn {
